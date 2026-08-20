@@ -20,7 +20,7 @@
         android:allowAudioPlaybackCapture="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="RetroArch"
+        android:label="RetroArch Deluxe"
         android:hasCode="true"
         android:appCategory="game"
         android:banner="@drawable/banner">
