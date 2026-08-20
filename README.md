@@ -1,24 +1,16 @@
 [![Crowdin](https://badges.crowdin.net/retroarch/localized.svg)](https://crowdin.com/project/retroarch)
 
-# RetroArch
+# RetroArch Deluxe
 
-RetroArch is the reference frontend for the libretro API.
+RetroArch Deluxe is the reference frontend for the libretro API.
 Popular examples of implementations for this API includes video game system emulators and game engines as well as
 more generalized 3D programs.
 These programs are instantiated as dynamic libraries. We refer to these as "libretro cores".
 
-![XMB menu driver](docs/XMB-main-menu.jpg "XMB menu driver")
-
-![rgui menu driver](docs/rgui-main-menu.jpg "rgui menu driver")
-
-![glui menu driver](docs/glui-main-menu.jpg "glui menu driver")
-
-![ozone menu driver](docs/ozone-main-menu.jpg "ozone menu driver")
-
 ## libretro
 
 [libretro](https://www.libretro.com) is an API that exposes generic audio/video/input callbacks.
-A frontend for libretro (such as RetroArch) handles video output, audio output, input and application lifecycle.
+A frontend for libretro (such as RetroArch Deluxe) handles video output, audio output, input and application lifecycle.
 A libretro core written in portable C or C++ can run seamlessly on many platforms with very little to no porting effort.
 
 While RetroArch is the reference frontend for libretro, several other projects have used the libretro
@@ -49,19 +41,19 @@ More developer-centric stuff is found [here](https://docs.libretro.com/developme
 
 ## Philosophy
 
-RetroArch attempts to be small and lean
+RetroArch Deluxe attempts to be small and lean
 while still having all the useful core features expected from an emulator.
 It is designed to be very portable and features a gamepad-centric and touchscreen UI.
 It also has a full-featured command-line interface.
 
-In some areas, RetroArch goes beyond and emphasizes on not-so-common technical features such as multi-pass shader support,
+In some areas, RetroArch Deluxe goes beyond and emphasizes on not-so-common technical features such as multi-pass shader support,
 real-time rewind (Braid-style), video recording (using FFmpeg), run-ahead input latency removal, etc.
 
-RetroArch also emphasizes being easy to integrate into various launcher frontends.
+RetroArch Deluxe also emphasizes being easy to integrate into various launcher frontends.
 
 ## Platforms
 
-RetroArch has been ported to the following platforms:
+RetroArch Deluxe has been ported to the following platforms:
    - Android (2.x to most recent version)
    - Apple iOS
    - Apple macOS (PPC, x86-32 and x86-64)
@@ -115,7 +107,7 @@ RetroArch has been ported to the following platforms:
 
 There are no true hard dependencies per se.
 
-On Windows, RetroArch can run with only Win32 as dependency.
+On Windows, RetroArch Deluxe can run with only Win32 as dependency.
 
 On Linux, there are no true dependencies. For optimal usage, the
 following dependencies come as recommended:
@@ -123,14 +115,14 @@ following dependencies come as recommended:
    - GL headers / Vulkan headers
    - X11 headers and libs, or EGL/KMS/GBM
 
-OSX port of RetroArch requires latest versions of Xcode to build.
+OSX port of RetroArch Deluxe requires latest versions of Xcode to build.
 
-RetroArch can utilize these libraries if enabled:
+RetroArch Deluxe can utilize these libraries if enabled:
 
    - nvidia-cg-toolkit
    - libfreetype2 (TTF font rendering on screen)
 
-RetroArch needs at least one of these audio driver libraries:
+RetroArch Deluxe needs at least one of these audio driver libraries:
 
    - ALSA
    - OSS
@@ -145,7 +137,7 @@ RetroArch needs at least one of these audio driver libraries:
    - DirectSound (Win32, Xbox 1)
    - CoreAudio (OSX, iOS)
 
-To run properly, RetroArch requires a libretro implementation present; however, as it's typically loaded
+To run properly, RetroArch Deluxe requires a libretro implementation present; however, as it's typically loaded
 dynamically, it's not required at build time.
 
 ## Dependencies (Console ports, mobile)
