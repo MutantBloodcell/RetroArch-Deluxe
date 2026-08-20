@@ -60,14 +60,14 @@ android {
 
   productFlavors {
     normal {
-      resValue "string", "app_name", "RetroArch"
+      resValue "string", "app_name", "RetroArch Deluxe"
       buildConfigField "boolean", "PLAY_STORE_BUILD", "false"
 
       dimension "variant"
     }
     aarch64 {
       applicationIdSuffix '.aarch64'
-      resValue "string", "app_name", "RetroArch (AArch64)"
+      resValue "string", "app_name", "RetroArch Deluxe (AArch64)"
       buildConfigField "boolean", "PLAY_STORE_BUILD", "false"
 
       dimension "variant"
@@ -77,7 +77,7 @@ android {
     }
     ra32 {
       applicationIdSuffix '.ra32'
-      resValue "string", "app_name", "RetroArch (32-bit)"
+      resValue "string", "app_name", "RetroArch Deluxe (32-bit)"
       buildConfigField "boolean", "PLAY_STORE_BUILD", "false"
 
       dimension "variant"
@@ -91,7 +91,7 @@ android {
       versionCode getPlayStoreVersionCode()
       versionName getPlayStoreVersionName()
 
-      resValue "string", "app_name", "RetroArch"
+      resValue "string", "app_name", "RetroArch Deluxe"
       buildConfigField "boolean", "PLAY_STORE_BUILD", "true"
 
       dimension "variant"
@@ -113,7 +113,7 @@ android {
       versionName getPlayStoreVersionName()
 
       applicationIdSuffix '.aarch64'
-      resValue "string", "app_name", "RetroArch Plus"
+      resValue "string", "app_name", "RetroArch Deluxe"
       buildConfigField "boolean", "PLAY_STORE_BUILD", "true"
 
       dimension "variant"
